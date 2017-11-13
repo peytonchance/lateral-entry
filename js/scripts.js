@@ -1,232 +1,125 @@
-var map;
+initMap();
 
-// [
-//   {
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#f5f5f5"
-//       }
-//     ]
-//   },
-//   {
-//     "elementType": "labels.icon",
-//     "stylers": [
-//       {
-//         "visibility": "off"
-//       }
-//     ]
-//   },
-//   {
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#616161"
-//       }
-//     ]
-//   },
-//   {
-//     "elementType": "labels.text.stroke",
-//     "stylers": [
-//       {
-//         "color": "#f5f5f5"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "administrative.land_parcel",
-//     "stylers": [
-//       {
-//         "visibility": "off"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "administrative.land_parcel",
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#bdbdbd"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "administrative.neighborhood",
-//     "stylers": [
-//       {
-//         "visibility": "off"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "administrative.province",
-//     "elementType": "geometry.stroke",
-//     "stylers": [
-//       {
-//         "color": "#000000"
-//       },
-//       {
-//         "visibility": "on"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "poi",
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#eeeeee"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "poi",
-//     "elementType": "labels.text",
-//     "stylers": [
-//       {
-//         "visibility": "off"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "poi",
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#757575"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "poi.park",
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#e5e5e5"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "poi.park",
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#9e9e9e"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "road",
-//     "stylers": [
-//       {
-//         "visibility": "off"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "road",
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#ffffff"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "road",
-//     "elementType": "labels",
-//     "stylers": [
-//       {
-//         "visibility": "off"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "road.arterial",
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#757575"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "road.highway",
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#dadada"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "road.highway",
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#616161"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "road.local",
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#9e9e9e"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "transit.line",
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#e5e5e5"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "transit.station",
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#eeeeee"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "water",
-//     "elementType": "geometry",
-//     "stylers": [
-//       {
-//         "color": "#c9c9c9"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "water",
-//     "elementType": "labels.text",
-//     "stylers": [
-//       {
-//         "visibility": "off"
-//       }
-//     ]
-//   },
-//   {
-//     "featureType": "water",
-//     "elementType": "labels.text.fill",
-//     "stylers": [
-//       {
-//         "color": "#9e9e9e"
-//       }
-//     ]
-//   }
-// ]
+var mymap;
+var geojson;
+
+function getColor(d) {
+    return d > 0.3  ? '#006d2c' :
+           d > 0.225  ? '#31a354' :
+           d > 0.15   ? '#74c476' :
+           d > 0.075   ? '#bae4b3' :
+           d > 0.0   ? '#edf8e9' :
+                      '#ffffff';
+}
+
+function style(feature) {
+    return {
+        fillColor: getColor(feature.properties.percentage),
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+}
 
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 35.399756, lng: -79.766613},
-    zoom: 7
-  });
+mymap = L.map('map').setView([35.405110, -79.721860], 7);
+
+addLateralData();
+getColor();
+style();
 }
+
+function addLateralData(){
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.light',
+    accessToken: myMapsKey
+}).addTo(mymap);
+
+console.log("made it here");
+// L.geoJson(lateralData).addTo(mymap);
+
+
+function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.8
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+    }
+    info.update(layer.feature.properties);
+  }
+
+
+function resetHighlight(e) {
+  geojson.resetStyle(e.target);
+  info.update();
+}
+
+function zoomToFeature(e) {
+    map.fitBounds(e.target.getBounds());
+}
+
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+  }
+
+  geojson = L.geoJson(lateralData, {
+      style: style,
+      onEachFeature: onEachFeature
+  }).addTo(mymap);
+
+  // Show info on hover
+  var info = L.control();
+
+  info.onAdd = function (mymap) {
+      this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+      this.update();
+      return this._div;
+  };
+
+  info.update = function (props) {
+      this._div.innerHTML = '<h4>Lateral Entry Teachers in North Carolina</h4>' +  (props ?
+          '<b>' + props.name + '</b><br />' + props.percentage*100 + '%'
+          : 'Hover over a county');
+  };
+
+  info.addTo(mymap);
+
+
+  // Create legend
+
+  var legend = L.control({position: 'bottomright'});
+
+  legend.onAdd = function (mymap) {
+
+      var div = L.DomUtil.create('div', 'info legend'),
+          grades = [0.0, 0.075, 0.15, 0.225, 0.3],
+          labels = [];
+      // loop through our density intervals and generate a label with a colored square for each interval
+      for (var i = 0; i < (grades.length - 1); i++) {
+        div.innerHTML +=
+        '<i style="background:' + getColor(grades[i+1]) + '"></i> ' +
+          grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+      return div;
+  };
+
+  legend.addTo(mymap);
+}
+
+geojson = L.geoJson(lateralData, {style: style}).addTo(mymap);
