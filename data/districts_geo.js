@@ -362,7 +362,8 @@ var lateralData = {
 				"name": "Harnett County Schools",
 				"LSAD": "00",
 				"ALAND": 1541077415,
-				"AWATER": 16400845
+				"AWATER": 16400845,
+				"percentage": 0.1914
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -741,7 +742,8 @@ var lateralData = {
 				"name": "Randolph County Schools",
 				"LSAD": "00",
 				"ALAND": 1936638080,
-				"AWATER": 19523778
+				"AWATER": 19523778,
+				"percentage": 0.1817
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -1058,7 +1060,8 @@ var lateralData = {
 				"name": "Lee County Schools",
 				"LSAD": "00",
 				"ALAND": 660580380,
-				"AWATER": 10752322
+				"AWATER": 10752322,
+				"percentage": 0.1189
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -1367,7 +1370,8 @@ var lateralData = {
 				"name": "Montgomery County Schools",
 				"LSAD": "00",
 				"ALAND": 1273042690,
-				"AWATER": 25910561
+				"AWATER": 25910561,
+				"percentage": 0.2014
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -1712,7 +1716,8 @@ var lateralData = {
 				"name": "Wilkes County Schools",
 				"LSAD": "00",
 				"ALAND": 1954249751,
-				"AWATER": 6862434
+				"AWATER": 6862434,
+				"percentage": 0.0833
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -2170,7 +2175,8 @@ var lateralData = {
 				"name": "Dare County Schools",
 				"LSAD": "00",
 				"ALAND": 992521573,
-				"AWATER": 3000550239
+				"AWATER": 3000550239,
+				"percentage": 0.1151
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -2848,7 +2854,8 @@ var lateralData = {
 				"name": "Rowan-Salisbury Schools",
 				"LSAD": "00",
 				"ALAND": 1310639402,
-				"AWATER": 32083506
+				"AWATER": 32083506,
+				"percentage": 0.1380
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -3205,7 +3212,8 @@ var lateralData = {
 				"name": "Carteret County Schools",
 				"LSAD": "00",
 				"ALAND": 1314749437,
-				"AWATER": 2131001181
+				"AWATER": 2131001181,
+				"percentage": 0.1011
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -4542,7 +4550,8 @@ var lateralData = {
 				"name": "Swain County Schools",
 				"LSAD": "00",
 				"ALAND": 1267807784,
-				"AWATER": 32415630
+				"AWATER": 32415630,
+				"percentage": 0.1293
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -5491,7 +5500,8 @@ var lateralData = {
 				"name": "Nash-Rocky Mount Schools",
 				"LSAD": "00",
 				"ALAND": 1410626630,
-				"AWATER": 6177826
+				"AWATER": 6177826,
+				"percentage": 0.2489
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -5880,7 +5890,8 @@ var lateralData = {
 				"name": "Pamlico County Schools",
 				"LSAD": "00",
 				"ALAND": 871556645,
-				"AWATER": 583050685
+				"AWATER": 583050685,
+				"percentage": 0.1429
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -6242,7 +6253,8 @@ var lateralData = {
 				"name": "Graham County Schools",
 				"LSAD": "00",
 				"ALAND": 756200800,
-				"AWATER": 25045983
+				"AWATER": 25045983,
+				"percentage": 0.0549
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -6721,7 +6733,8 @@ var lateralData = {
 				"name": "Jackson County Schools",
 				"LSAD": "00",
 				"ALAND": 1192553751,
-				"AWATER": 9779083
+				"AWATER": 9779083,
+				"percentage": 0.1102
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -7384,7 +7397,8 @@ var lateralData = {
 				"name": "Yancey County Schools",
 				"LSAD": "00",
 				"ALAND": 809602987,
-				"AWATER": 1531168
+				"AWATER": 1531168,
+				"percentage": 0.1023
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -7938,7 +7952,8 @@ var lateralData = {
 				"name": "Ashe County Schools",
 				"LSAD": "00",
 				"ALAND": 1100902277,
-				"AWATER": 8093124
+				"AWATER": 8093124,
+				"percentage": 0.0802
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -8271,7 +8286,8 @@ var lateralData = {
 				"name": "Davidson County Schools",
 				"LSAD": "00",
 				"ALAND": 1366022467,
-				"AWATER": 37467777
+				"AWATER": 37467777,
+				"percentage": 0.1634
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -8842,7 +8858,8 @@ var lateralData = {
 				"name": "Moore County Schools",
 				"LSAD": "00",
 				"ALAND": 1806961889,
-				"AWATER": 20736340
+				"AWATER": 20736340,
+				"percentage": 0.1746
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -9388,7 +9405,8 @@ var lateralData = {
 				"name": "Bertie County Schools",
 				"LSAD": "00",
 				"ALAND": 1810858584,
-				"AWATER": 109088135
+				"AWATER": 109088135,
+				"percentage": 0.2570
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -9960,7 +9978,8 @@ var lateralData = {
 				"name": "Cumberland County Schools",
 				"LSAD": "00",
 				"ALAND": 1514087214,
-				"AWATER": 14415769
+				"AWATER": 14415769,
+				"percentage": 0.2187
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -10691,7 +10710,8 @@ var lateralData = {
 				"name": "McDowell County Schools",
 				"LSAD": "00",
 				"ALAND": 1139475862,
-				"AWATER": 13977177
+				"AWATER": 13977177,
+				"percentage": 0.1281
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -11124,7 +11144,8 @@ var lateralData = {
 				"name": "Chatham County Schools",
 				"LSAD": "00",
 				"ALAND": 1765012096,
-				"AWATER": 71263127
+				"AWATER": 71263127,
+				"percentage": 0.1490
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -11432,7 +11453,8 @@ var lateralData = {
 				"name": "Caldwell County Schools",
 				"LSAD": "00",
 				"ALAND": 1222192510,
-				"AWATER": 7038401
+				"AWATER": 7038401,
+				"percentage": 0.1063
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -11765,7 +11787,8 @@ var lateralData = {
 				"name": "Richmond County Schools",
 				"LSAD": "00",
 				"ALAND": 1227593689,
-				"AWATER": 15572168
+				"AWATER": 15572168,
+				"percentage": 0.2584
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -12623,7 +12646,8 @@ var lateralData = {
 				"name": "Bladen County Schools",
 				"LSAD": "00",
 				"ALAND": 2265857408,
-				"AWATER": 33041192
+				"AWATER": 33041192,
+				"percentage": 0.2671
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -13336,7 +13360,8 @@ var lateralData = {
 				"name": "Robeson County Schools",
 				"LSAD": "00",
 				"ALAND": 2455335994,
-				"AWATER": 5105265
+				"AWATER": 5105265,
+				"percentage": 0.3159
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -13937,7 +13962,8 @@ var lateralData = {
 				"name": "Sampson County Schools",
 				"LSAD": "00",
 				"ALAND": 2259878025,
-				"AWATER": 4302022
+				"AWATER": 4302022,
+				"percentage": 0.2504
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -14867,7 +14893,8 @@ var lateralData = {
 				"name": "Surry County Schools",
 				"LSAD": "00",
 				"ALAND": 1270856227,
-				"AWATER": 9065012
+				"AWATER": 9065012,
+				"percentage": 0.1237
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -15297,7 +15324,8 @@ var lateralData = {
 				"name": "New Hanover County Schools",
 				"LSAD": "00",
 				"ALAND": 496985298,
-				"AWATER": 354006265
+				"AWATER": 354006265,
+				"percentage": 0.0854
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -15616,7 +15644,8 @@ var lateralData = {
 				"name": "Stanly County Schools",
 				"LSAD": "00",
 				"ALAND": 1023370455,
-				"AWATER": 25242751
+				"AWATER": 25242751,
+				"percentage": 0.1847
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -16012,7 +16041,8 @@ var lateralData = {
 				"name": "Buncombe County Schools",
 				"LSAD": "00",
 				"ALAND": 1643116705,
-				"AWATER": 8221913
+				"AWATER": 8221913,
+				"percentage": 0.0745
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -16968,7 +16998,8 @@ var lateralData = {
 				"name": "Currituck County Schools",
 				"LSAD": "00",
 				"ALAND": 678415822,
-				"AWATER": 685024028
+				"AWATER": 685024028,
+				"percentage": 0.0827
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -17342,7 +17373,8 @@ var lateralData = {
 				"name": "Anson County Schools",
 				"LSAD": "00",
 				"ALAND": 1376481074,
-				"AWATER": 14617339
+				"AWATER": 14617339,
+				"percentage": 0.2434
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -17645,7 +17677,8 @@ var lateralData = {
 				"name": "Edgecombe County Schools",
 				"LSAD": "00",
 				"ALAND": 1298176074,
-				"AWATER": 3717083
+				"AWATER": 3717083,
+				"percentage": 0.1990
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -18054,7 +18087,8 @@ var lateralData = {
 				"name": "Hyde County Schools",
 				"LSAD": "00",
 				"ALAND": 1585933592,
-				"AWATER": 2192961833
+				"AWATER": 2192961833,
+				"percentage": 0.10
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -18827,7 +18861,8 @@ var lateralData = {
 				"name": "Johnston County Schools",
 				"LSAD": "00",
 				"ALAND": 2049314207,
-				"AWATER": 11529964
+				"AWATER": 11529964,
+				"percentage": 0.1643
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -19205,7 +19240,8 @@ var lateralData = {
 				"name": "Catawba County Schools",
 				"LSAD": "00",
 				"ALAND": 917743965,
-				"AWATER": 35372878
+				"AWATER": 35372878,
+				"percentage": 0.1165
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -19772,7 +19808,8 @@ var lateralData = {
 				"name": "Scotland County Schools",
 				"LSAD": "00",
 				"ALAND": 825964638,
-				"AWATER": 3821988
+				"AWATER": 3821988,
+				"percentage": 0.2975
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -20120,7 +20157,8 @@ var lateralData = {
 				"name": "Burke County Schools",
 				"LSAD": "00",
 				"ALAND": 1311170301,
-				"AWATER": 20699633
+				"AWATER": 20699633,
+				"percentage": 0.1556
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -20588,7 +20626,8 @@ var lateralData = {
 				"name": "Columbus County Schools",
 				"LSAD": "00",
 				"ALAND": 2189396286,
-				"AWATER": 42843409
+				"AWATER": 42843409,
+				"percentage": 0.1929
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -21439,7 +21478,8 @@ var lateralData = {
 				"name": "Clay County Schools",
 				"LSAD": "00",
 				"ALAND": 556804507,
-				"AWATER": 15017754
+				"AWATER": 15017754,
+				"percentage": 0.0928
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -21798,7 +21838,8 @@ var lateralData = {
 				"name": "Iredell-Statesville Schools",
 				"LSAD": "00",
 				"ALAND": 1393997922,
-				"AWATER": 61607098
+				"AWATER": 61607098,
+				"percentage": 0.1299
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -22206,7 +22247,8 @@ var lateralData = {
 				"name": "Hoke County Schools",
 				"LSAD": "00",
 				"ALAND": 649488171,
-				"AWATER": 2609326
+				"AWATER": 2609326,
+				"percentage": 0.2355
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -22490,7 +22532,8 @@ var lateralData = {
 				"name": "Brunswick County Schools",
 				"LSAD": "00",
 				"ALAND": 2200507464,
-				"AWATER": 519018582
+				"AWATER": 519018582,
+				"percentage": 0.1363
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -23103,7 +23146,8 @@ var lateralData = {
 				"name": "Halifax County Schools",
 				"LSAD": "00",
 				"ALAND": 1634155271,
-				"AWATER": 16524429
+				"AWATER": 16524429,
+				"percentage": 0.3184
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -24401,7 +24445,8 @@ var lateralData = {
 				"name": "Pasquotank County Schools",
 				"LSAD": "00",
 				"ALAND": 587616450,
-				"AWATER": 161745166
+				"AWATER": 161745166,
+				"percentage": 0.1949
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -24725,7 +24770,8 @@ var lateralData = {
 				"name": "Pender County Schools",
 				"LSAD": "00",
 				"ALAND": 2256645184,
-				"AWATER": 162905594
+				"AWATER": 162905594,
+				"percentage": 0.0911
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -25283,7 +25329,8 @@ var lateralData = {
 				"name": "Madison County Schools",
 				"LSAD": "00",
 				"ALAND": 1164497710,
-				"AWATER": 4840762
+				"AWATER": 4840762,
+				"percentage": 0.1257
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -25845,7 +25892,8 @@ var lateralData = {
 				"name": "Craven County Schools",
 				"LSAD": "00",
 				"ALAND": 1830335129,
-				"AWATER": 172457083
+				"AWATER": 172457083,
+				"percentage": 0.1387
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -26371,7 +26419,8 @@ var lateralData = {
 				"name": "Camden County Schools",
 				"LSAD": "00",
 				"ALAND": 622448679,
-				"AWATER": 181112904
+				"AWATER": 181112904,
+				"percentage": 0.1527
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -26743,7 +26792,8 @@ var lateralData = {
 				"name": "Haywood County Schools",
 				"LSAD": "00",
 				"ALAND": 1433265784,
-				"AWATER": 2414518
+				"AWATER": 2414518,
+				"percentage": 0.0974
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -27412,7 +27462,8 @@ var lateralData = {
 				"name": "Rutherford County Schools",
 				"LSAD": "00",
 				"ALAND": 1464352460,
-				"AWATER": 4681970
+				"AWATER": 4681970,
+				"percentage": 0.1374
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -27793,7 +27844,8 @@ var lateralData = {
 				"name": "Transylvania County Schools",
 				"LSAD": "00",
 				"ALAND": 980254343,
-				"AWATER": 5135255
+				"AWATER": 5135255,
+				"percentage": 0.0989
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -28176,7 +28228,8 @@ var lateralData = {
 				"name": "Martin County Schools",
 				"LSAD": "00",
 				"ALAND": 1182135018,
-				"AWATER": 746610
+				"AWATER": 746610,
+				"percentage": 0.1467
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -28720,7 +28773,8 @@ var lateralData = {
 				"name": "Charlotte-Mecklenburg Schools",
 				"LSAD": "00",
 				"ALAND": 1356116196,
-				"AWATER": 56318899
+				"AWATER": 56318899,
+				"percentage": 0.1709
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -29156,7 +29210,8 @@ var lateralData = {
 				"name": "Mitchell County Schools",
 				"LSAD": "00",
 				"ALAND": 573038008,
-				"AWATER": 1629508
+				"AWATER": 1629508,
+				"percentage": 0.0397
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -29662,7 +29717,8 @@ var lateralData = {
 				"name": "Hertford County Schools",
 				"LSAD": "00",
 				"ALAND": 914685904,
-				"AWATER": 18740844
+				"AWATER": 18740844,
+				"percentage": 0.3081
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -29990,7 +30046,8 @@ var lateralData = {
 				"name": "Cherokee County Schools",
 				"LSAD": "00",
 				"ALAND": 1179401585,
-				"AWATER": 29257527
+				"AWATER": 29257527,
+				"percentage": 0.0803
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -30463,7 +30520,8 @@ var lateralData = {
 				"name": "Tyrrell County Schools",
 				"LSAD": "00",
 				"ALAND": 1012110887,
-				"AWATER": 534568389
+				"AWATER": 534568389,
+				"percentage": 0.1509
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -30782,7 +30840,8 @@ var lateralData = {
 				"name": "Macon County Schools",
 				"LSAD": "00",
 				"ALAND": 1335358123,
-				"AWATER": 10567195
+				"AWATER": 10567195,
+				"percentage": 0.1025
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -31338,7 +31397,8 @@ var lateralData = {
 				"name": "Onslow County Schools",
 				"LSAD": "00",
 				"ALAND": 1632908588,
-				"AWATER": 296139170
+				"AWATER": 296139170,
+				"percentage": 0.0894
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -31967,7 +32027,8 @@ var lateralData = {
 				"name": "Henderson County Schools",
 				"LSAD": "00",
 				"ALAND": 966233193,
-				"AWATER": 5556427
+				"AWATER": 5556427,
+				"percentage": 0.1025
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -32447,7 +32508,8 @@ var lateralData = {
 				"name": "Wake County Schools",
 				"LSAD": "00",
 				"ALAND": 2162149712,
-				"AWATER": 58100780
+				"AWATER": 58100780,
+				"percentage": 0.1037
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -32750,7 +32812,8 @@ var lateralData = {
 				"name": "Beaufort County Schools",
 				"LSAD": "00",
 				"ALAND": 2154915918,
-				"AWATER": 338848867
+				"AWATER": 338848867,
+				"percentage": 0.1183
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -33362,7 +33425,8 @@ var lateralData = {
 				"name": "Kannapolis City Schools",
 				"LSAD": "00",
 				"ALAND": 47133463,
-				"AWATER": 1182142
+				"AWATER": 1182142,
+				"percentage": 0.1026
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -33485,7 +33549,8 @@ var lateralData = {
 				"name": "Asheboro City Schools",
 				"LSAD": "00",
 				"ALAND": 89536154,
-				"AWATER": 298992
+				"AWATER": 298992,
+				"percentage": 0.1629
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -33677,7 +33742,8 @@ var lateralData = {
 				"name": "Caswell County Schools",
 				"LSAD": "00",
 				"ALAND": 1101692694,
-				"AWATER": 8643884
+				"AWATER": 8643884,
+				"percentage": 0.1313
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -33758,7 +33824,8 @@ var lateralData = {
 				"name": "Pitt County Schools",
 				"LSAD": "00",
 				"ALAND": 1689619168,
-				"AWATER": 8248766
+				"AWATER": 8248766,
+				"percentage": 0.1409
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -34375,7 +34442,8 @@ var lateralData = {
 				"name": "Newton-Conover City Schools",
 				"LSAD": "00",
 				"ALAND": 53813468,
-				"AWATER": 190401
+				"AWATER": 190401,
+				"percentage": 0.1589
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -34579,7 +34647,8 @@ var lateralData = {
 				"name": "Washington County Schools",
 				"LSAD": "00",
 				"ALAND": 897456200,
-				"AWATER": 195282200
+				"AWATER": 195282200,
+				"percentage": 0.1944
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -35072,7 +35141,8 @@ var lateralData = {
 				"name": "Franklin County Schools",
 				"LSAD": "00",
 				"ALAND": 1273631714,
-				"AWATER": 7304032
+				"AWATER": 7304032,
+				"percentage": 0.2214
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -35378,7 +35448,8 @@ var lateralData = {
 				"name": "Cabarrus County Schools",
 				"LSAD": "00",
 				"ALAND": 902552533,
-				"AWATER": 5976639
+				"AWATER": 5976639,
+				"percentage": 0.1044
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -35632,7 +35703,8 @@ var lateralData = {
 				"name": "Alleghany County Schools",
 				"LSAD": "00",
 				"ALAND": 607101004,
-				"AWATER": 3715040
+				"AWATER": 3715040,
+				"percentage": 0.0650
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -35862,7 +35934,8 @@ var lateralData = {
 				"name": "Chapel Hill-Carrboro Schools",
 				"LSAD": "00",
 				"ALAND": 160169302,
-				"AWATER": 1523725
+				"AWATER": 1523725,
+				"percentage": 0.0866
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -35962,7 +36035,8 @@ var lateralData = {
 				"name": "Rockingham County Schools",
 				"LSAD": "00",
 				"ALAND": 1464974378,
-				"AWATER": 18468477
+				"AWATER": 18468477,
+				"percentage": 0.1504
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -36060,7 +36134,8 @@ var lateralData = {
 				"name": "Clinton City Schools",
 				"LSAD": "00",
 				"ALAND": 189479404,
-				"AWATER": 621804
+				"AWATER": 621804,
+				"percentage": 0.2233
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -36271,7 +36346,8 @@ var lateralData = {
 				"name": "Cleveland County Schools",
 				"LSAD": "00",
 				"ALAND": 1202005999,
-				"AWATER": 10201815
+				"AWATER": 10201815,
+				"percentage": 0.1698
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -36480,7 +36556,8 @@ var lateralData = {
 				"name": "Gaston County Schools",
 				"LSAD": "00",
 				"ALAND": 921966686,
-				"AWATER": 21053460
+				"AWATER": 21053460,
+				"percentage": 0.1555
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -36727,7 +36804,8 @@ var lateralData = {
 				"name": "Vance County Schools",
 				"LSAD": "00",
 				"ALAND": 653705786,
-				"AWATER": 42187365
+				"AWATER": 42187365,
+				"percentage": 0.2778
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -36892,7 +36970,8 @@ var lateralData = {
 				"name": "Greene County Schools",
 				"LSAD": "00",
 				"ALAND": 690851082,
-				"AWATER": 1217389
+				"AWATER": 1217389,
+				"percentage": 0.1005
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -37210,7 +37289,8 @@ var lateralData = {
 				"name": "Alamance-Burlington Schools",
 				"LSAD": "00",
 				"ALAND": 1096654283,
-				"AWATER": 28025249
+				"AWATER": 28025249,
+				"percentage": 0.1529
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -37389,7 +37469,8 @@ var lateralData = {
 				"name": "Wilson County Schools",
 				"LSAD": "00",
 				"ALAND": 952010946,
-				"AWATER": 14334531
+				"AWATER": 14334531,
+				"percentage": 0.2048
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -37523,7 +37604,8 @@ var lateralData = {
 				"name": "Hickory City Schools",
 				"LSAD": "00",
 				"ALAND": 67991174,
-				"AWATER": 2383859
+				"AWATER": 2383859,
+				"percentage": 0.1040
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -37753,7 +37835,8 @@ var lateralData = {
 				"name": "Asheville City Schools",
 				"LSAD": "00",
 				"ALAND": 56922743,
-				"AWATER": 725847
+				"AWATER": 725847,
+				"percentage": 0.0920
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38002,7 +38085,8 @@ var lateralData = {
 				"name": "Orange County Schools",
 				"LSAD": "00",
 				"ALAND": 869435763,
-				"AWATER": 7348029
+				"AWATER": 7348029,
+				"percentage": 0.0958
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38211,7 +38295,8 @@ var lateralData = {
 				"name": "Durham Public Schools",
 				"LSAD": "00",
 				"ALAND": 741739587,
-				"AWATER": 29723581
+				"AWATER": 29723581,
+				"percentage": 0.1847
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38436,7 +38521,8 @@ var lateralData = {
 				"name": "Whiteville City Schools",
 				"LSAD": "00",
 				"ALAND": 238738868,
-				"AWATER": 808070
+				"AWATER": 808070,
+				"percentage": 0.1988
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38677,7 +38763,8 @@ var lateralData = {
 				"name": "Person County Schools",
 				"LSAD": "00",
 				"ALAND": 1016141549,
-				"AWATER": 31218720
+				"AWATER": 31218720,
+				"percentage": 0.1869
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38760,7 +38847,8 @@ var lateralData = {
 				"name": "Lexington City Schools",
 				"LSAD": "00",
 				"ALAND": 48354026,
-				"AWATER": 0
+				"AWATER": 0,
+				"percentage": 0.1810
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38884,7 +38972,8 @@ var lateralData = {
 				"name": "Thomasville City Schools",
 				"LSAD": "00",
 				"ALAND": 18319739,
-				"AWATER": 0
+				"AWATER": 0,
+				"percentage": 0.1455
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -38986,7 +39075,8 @@ var lateralData = {
 				"name": "Roanoke Rapids City Schools",
 				"LSAD": "00",
 				"ALAND": 17704964,
-				"AWATER": 92162
+				"AWATER": 92162,
+				"percentage": 0.1546
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -39075,7 +39165,8 @@ var lateralData = {
 				"name": "Yadkin County Schools",
 				"LSAD": "00",
 				"ALAND": 867487240,
-				"AWATER": 7241442
+				"AWATER": 7241442,
+				"percentage": 0.1714
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -39355,7 +39446,8 @@ var lateralData = {
 				"name": "Granville County Schools",
 				"LSAD": "00",
 				"ALAND": 1377849157,
-				"AWATER": 14503651
+				"AWATER": 14503651,
+				"percentage": 0.1420
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -39533,7 +39625,8 @@ var lateralData = {
 				"name": "Mount Airy City Schools",
 				"LSAD": "00",
 				"ALAND": 44021347,
-				"AWATER": 434072
+				"AWATER": 434072,
+				"percentage": 0.1040
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -39681,7 +39774,8 @@ var lateralData = {
 				"name": "Gates County Schools",
 				"LSAD": "00",
 				"ALAND": 882181715,
-				"AWATER": 13292007
+				"AWATER": 13292007,
+				"percentage": 0.1630
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -39931,7 +40025,8 @@ var lateralData = {
 				"name": "Union County Public Schools",
 				"LSAD": "00",
 				"ALAND": 1636095292,
-				"AWATER": 20333224
+				"AWATER": 20333224,
+				"percentage": 0.1393
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -40209,7 +40304,8 @@ var lateralData = {
 				"name": "Northampton County Schools",
 				"LSAD": "00",
 				"ALAND": 1390017259,
-				"AWATER": 36037775
+				"AWATER": 36037775,
+				"percentage": 0.2273
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -40687,7 +40783,8 @@ var lateralData = {
 				"name": "Wayne County Public Schools",
 				"LSAD": "00",
 				"ALAND": 1434618746,
-				"AWATER": 9874705
+				"AWATER": 9874705,
+				"percentage": 0.2629
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -40954,7 +41051,8 @@ var lateralData = {
 				"name": "Edenton-Chowan Schools",
 				"LSAD": "00",
 				"ALAND": 447179927,
-				"AWATER": 157966162
+				"AWATER": 157966162,
+				"percentage": 0.0719
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -41209,7 +41307,8 @@ var lateralData = {
 				"name": "Stokes County Schools",
 				"LSAD": "00",
 				"ALAND": 1162923861,
-				"AWATER": 17595454
+				"AWATER": 17595454,
+				"percentage": 0.1468
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -41321,7 +41420,8 @@ var lateralData = {
 				"name": "Warren County Schools",
 				"LSAD": "00",
 				"ALAND": 1111325893,
-				"AWATER": 39407120
+				"AWATER": 39407120,
+				"percentage": 0.2294
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -41532,7 +41632,8 @@ var lateralData = {
 				"name": "Elkin City Schools",
 				"LSAD": "00",
 				"ALAND": 67566925,
-				"AWATER": 779888
+				"AWATER": 779888,
+				"percentage": 0.1134
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -41664,7 +41765,8 @@ var lateralData = {
 				"name": "Watauga County Schools",
 				"LSAD": "00",
 				"ALAND": 809160508,
-				"AWATER": 2332416
+				"AWATER": 2332416,
+				"percentage": 0.0582
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -41917,7 +42019,8 @@ var lateralData = {
 				"name": "Polk County Schools",
 				"LSAD": "00",
 				"ALAND": 615841358,
-				"AWATER": 1964035
+				"AWATER": 1964035,
+				"percentage": 0.0964
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -42211,7 +42314,8 @@ var lateralData = {
 				"name": "Avery County Schools",
 				"LSAD": "00",
 				"ALAND": 640601895,
-				"AWATER": 445285
+				"AWATER": 445285,
+				"percentage": 0.0402
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -42468,7 +42572,8 @@ var lateralData = {
 				"name": "Perquimans County Schools",
 				"LSAD": "00",
 				"ALAND": 640099676,
-				"AWATER": 211829497
+				"AWATER": 211829497,
+				"percentage": 0.1774
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -42762,7 +42867,8 @@ var lateralData = {
 				"name": "Lenoir County Schools",
 				"LSAD": "00",
 				"ALAND": 1033630023,
-				"AWATER": 5900300
+				"AWATER": 5900300,
+				"percentage": 0.1749
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -43068,7 +43174,8 @@ var lateralData = {
 				"name": "Forsyth County Schools",
 				"LSAD": "00",
 				"ALAND": 1056112599,
-				"AWATER": 11821654
+				"AWATER": 11821654,
+				"percentage": 0.1748
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -43354,7 +43461,8 @@ var lateralData = {
 				"name": "Mooresville City Schools",
 				"LSAD": "00",
 				"ALAND": 93159383,
-				"AWATER": 244343
+				"AWATER": 244343,
+				"percentage": 0.1199
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -43559,7 +43667,8 @@ var lateralData = {
 				"name": "Lincoln County Schools",
 				"LSAD": "00",
 				"ALAND": 766277674,
-				"AWATER": 23376228
+				"AWATER": 23376228,
+				"percentage": 0.1312
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -43714,7 +43823,8 @@ var lateralData = {
 				"name": "Jones County Schools",
 				"LSAD": "00",
 				"ALAND": 1220844268,
-				"AWATER": 6024574
+				"AWATER": 6024574,
+				"percentage": 0.1889
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -44097,7 +44207,8 @@ var lateralData = {
 				"name": "Duplin County Schools",
 				"LSAD": "00",
 				"ALAND": 2110160393,
-				"AWATER": 14193280
+				"AWATER": 14193280,
+				"percentage": 0.1851
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -44379,7 +44490,8 @@ var lateralData = {
 				"name": "Weldon City Schools",
 				"LSAD": "00",
 				"ALAND": 222598829,
-				"AWATER": 316931
+				"AWATER": 316931,
+				"percentage": 0.2911
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -44562,7 +44674,8 @@ var lateralData = {
 				"name": "Guilford County Schools",
 				"LSAD": "00",
 				"ALAND": 1672533675,
-				"AWATER": 30735336
+				"AWATER": 30735336,
+				"percentage": 0.1945
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -44748,7 +44861,8 @@ var lateralData = {
 				"name": "Alexander County Schools",
 				"LSAD": "00",
 				"ALAND": 673358173,
-				"AWATER": 9445981
+				"AWATER": 9445981,
+				"percentage": 0.0937
 			},
 			"geometry": {
 				"type": "MultiPolygon",
