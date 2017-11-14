@@ -24,7 +24,15 @@ function style(feature) {
 }
 
 function initMap() {
-mymap = L.map('map').setView([35.33, -79.9555], 7);
+  var width = document.documentElement.clientWidth;
+
+  if (width < 700){
+    mymap = L.map('map').setView([35.33, -79.9555], 6);
+  }else{
+    mymap = L.map('map').setView([35.33, -79.9555], 7);
+  }
+
+
 
 addLateralData();
 getColor();
@@ -32,6 +40,8 @@ style();
 }
 
 function addLateralData(){
+
+
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
