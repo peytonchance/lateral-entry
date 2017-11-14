@@ -93,7 +93,7 @@ function onEachFeature(feature, layer) {
 
   info.update = function (props) {
       this._div.innerHTML = '<h4>Percentage of teachers classified as lateral entry</h4>' + (props ?
-        '<b>' + props.name + '</b><br />' + (props.percentage * 100).toFixed(2) + '%'
+        '<b>' + props.name + '</b><br />' + (props.percentage == undefined ? 'Not applicable' : ((props.percentage * 100).toFixed(2) + '%'))
         : 'Hover over a county to view percentage');
 
   };
