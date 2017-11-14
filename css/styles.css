@@ -1,9 +1,21 @@
+body{
+  font-family: 'Lato';
+}
+
 #map{
   height: 500px;
   width: 800px;
   margin: auto;
 }
+.subhead{
+  width: 75%;
+  margin-left: 17%;
+  margin-bottom: 30px;
+}
 
+h2{
+  font-weight: 700;
+}
 .info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;

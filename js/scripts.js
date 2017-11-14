@@ -9,7 +9,7 @@ function getColor(d) {
            d > 0.15   ? '#74c476' :
            d > 0.075   ? '#bae4b3' :
            d > 0.0   ? '#edf8e9' :
-                      '#ffffff';
+                      '#666666';
 }
 
 function style(feature) {
@@ -24,7 +24,7 @@ function style(feature) {
 }
 
 function initMap() {
-mymap = L.map('map').setView([35.405110, -79.721860], 7);
+mymap = L.map('map').setView([35.33, -79.9555], 7);
 
 addLateralData();
 getColor();
@@ -92,9 +92,10 @@ function onEachFeature(feature, layer) {
   };
 
   info.update = function (props) {
-      this._div.innerHTML = '<h4>Lateral Entry Teachers in North Carolina</h4>' +  (props ?
-          '<b>' + props.name + '</b><br />' + props.percentage*100 + '%'
-          : 'Hover over a county');
+      this._div.innerHTML = '<h4>Percentage of teachers classified as lateral entry</h4>' + (props ?
+        '<b>' + props.name + '</b><br />' + (props.percentage * 100).toFixed(2) + '%'
+        : 'Hover over a county to view percentage');
+
   };
 
   info.addTo(mymap);
@@ -107,13 +108,13 @@ function onEachFeature(feature, layer) {
   legend.onAdd = function (mymap) {
 
       var div = L.DomUtil.create('div', 'info legend'),
-          grades = [0.0, 0.075, 0.15, 0.225, 0.3],
+          grades = [0.0, 0.075, 0.15, 0.225, 0.3, 0.375],
           labels = [];
       // loop through our density intervals and generate a label with a colored square for each interval
       for (var i = 0; i < (grades.length - 1); i++) {
         div.innerHTML +=
         '<i style="background:' + getColor(grades[i+1]) + '"></i> ' +
-          grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+          grades[i]*100 + (grades[i + 1]*100 ? '&ndash;' + grades[i + 1]*100 + '%<br>' : '%+');
     }
 
       return div;
